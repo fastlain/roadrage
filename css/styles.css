@@ -1,0 +1,43 @@
+h2 {
+    font-family: 'Bangers', serif;
+    font-size: 60px;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background: tomato;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid pink;
+    float: left;
+    width: 100px;
+}
+
+div.gallery:hover .overlay{
+    border: 1px solid black;
+    opacity: 1;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+#box {
+    height: 100px;
+    width: 100px;
+
+}
